@@ -3,7 +3,6 @@ create table apikeys(
 	`vkey`        varchar(32) not null default '', 
 	`vcode`       varchar(64) not null default '', 
 	`user`        int(10)     not null, 
-	`cachedUntil` timestamp   not null, 
 	primary key(`id`), 
 	unique  key(`vkey`), 
 	foreign key(`user`) references `users`(`id`) on delete cascade
