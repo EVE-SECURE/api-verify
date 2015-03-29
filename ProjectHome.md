@@ -1,0 +1,1 @@
+API verification system used to determine player eligibility for corporations based on alliance standings, corporation standings and character creation dates.  Flags are issued based on limits set by the administrator.
